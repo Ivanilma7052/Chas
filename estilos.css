@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte básica */     
+    margin: 0;
+    padding: 0;
+    background-color: #aee1dc; /* Cor de fundo suave */
+}
+
+/* Centraliza o conteúdo da página */
+.container {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Alinha os itens ao centro */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da tela */
+    padding: 20px;
+}
+
+/* Estilo do título */
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #18440a; /* Cor do texto */
+    margin-bottom: 20px;
+}
+
+/* Estilo do input de texto */
+input[type="text"] {
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+    font-size: 35px; /* Tamanho da fonte dentro do input */
+    border: 1px solid #040404; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 100%; /* Faz o input ocupar 100% da largura disponível */
+    max-width: 500px; /* Limita a largura máxima */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    margin-bottom: 20px; /* Espaço abaixo do input */
+    background-color: #d6ebeb; /* Cor de fundo verde */
+   }
+
+/* Estilo do botão de pesquisa */
+button {
+    padding: 20px 20px; /* Adiciona espaço interno horizontal e vertical */
+    font-size: 20px; /* Tamanho da fonte */
+    background-color: #16838d; /* Cor de fundo verde */
+    color: rgb(11, 10, 10); /* Cor do texto do botão */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Aponta o cursor para indicar interatividade */
+    transition: background-color 0.3s ease; /* Transição suave de cor */
+    width: 100%; /* Faz o botão ocupar 100% da largura disponível */
+    max-width: 200px; /* Limita a largura máxima */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #d49820; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo para a área de resultados */
+#resultado {
+    margin-top: 20px;
+    font-size: 30px; /* Tamanho da fonte para o resultado */
+    color: #083b04; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+
+    img {
+        border-radius: 10%;
+        width: 600px;  /* CUMPRIMENTO DA IMAGEM */
+        height: 400px;  /* CUMPRIMENTO DA IMAGEM */
+    }
+
+
+}
+
+
+
